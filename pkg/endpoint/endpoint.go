@@ -23,7 +23,7 @@ import (
 )
 
 const (
-	KineSocket = "unix://kine.sock"
+	KineSocket = "unix:///var/lib/stellar/kine.sock"
 )
 
 type Config struct {
